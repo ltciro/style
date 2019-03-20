@@ -352,11 +352,11 @@ TBD - immutable as much as posible ; use map, filter ...
     }
     ```
 
-  <a name="comments--actionitems"></a><a name="17.3"></a>
-  - [18.4](#comments--actionitems) Prefixing your comments with `FIXME` or `TODO` helps other developers quickly understand if you’re pointing out a problem that needs to be revisited, or if you’re suggesting a solution to the problem that needs to be implemented. These are different than regular comments because they are actionable. The actions are `FIXME: -- need to figure this out` or `TODO: -- need to implement`.
+  <a name="comments--actionitems"></a><a name="8.3"></a>
+  - [8.3](#comments--actionitems) Prefixing your comments with `FIXME` or `TODO` helps other developers quickly understand if you’re pointing out a problem that needs to be revisited, or if you’re suggesting a solution to the problem that needs to be implemented. These are different than regular comments because they are actionable. The actions are `FIXME: -- need to figure this out` or `TODO: -- need to implement`.
 
-  <a name="comments--fixme"></a><a name="17.4"></a>
-  - [18.5](#comments--fixme) Use `// FIXME:` to annotate problems.
+  <a name="comments--fixme"></a><a name="8.4"></a>
+  - [8.4](#comments--fixme) Use `// FIXME:` to annotate problems.
 
     ```javascript
     class Calculator extends Abacus {
@@ -394,7 +394,7 @@ new Function("x", "y", "return x * y");
 ```
 
  <a name="airbnb"></a><a name="airbnb"></a>
-  [[1] Getting from AirBnB style guide](https://github.com/airbnb/javascrip)
+  [[1] Getting from AirBnB style guide](https://github.com/airbnb/javascript)
 
 
 # Versioning
