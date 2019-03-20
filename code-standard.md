@@ -369,8 +369,8 @@ TBD - immutable as much as posible ; use map, filter ...
     }
     ```
 
-  <a name="comments--todo"></a><a name="17.5"></a>
-  - [18.6](#comments--todo) Use `// TODO:` to annotate solutions to problems.
+  <a name="comments--todo"></a><a name="8.5"></a>
+  - [8.5](#comments--todo) Use `// TODO:` to annotate solutions to problems.
 
     ```javascript
     class Calculator extends Abacus {
