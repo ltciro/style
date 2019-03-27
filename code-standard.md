@@ -132,7 +132,7 @@
     let ordersIndex;
     let ordersLength;
   ```
-## Typings
+## Typings (for project with Typescript)
 
 TBD - use types of Node.js  or interfaces, avoid any always  
 
