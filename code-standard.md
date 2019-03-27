@@ -134,7 +134,7 @@
   ```
 ## Typings
 
-TBD - use types of node  or interfaces, avoid any always  
+TBD - use types of Node.js  or interfaces, avoid any always  
 
 ## Classes
 
