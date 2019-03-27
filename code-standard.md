@@ -129,8 +129,8 @@
     const goSportsTeam = true;
     const items = getItems();
     let dragonball;
-    let i;
-    let length;
+    let ordersIndex;
+    let ordersLength;
   ```
 ## Typings
 
@@ -264,14 +264,14 @@ TBD - immutable as much as posible ; use map, filter ...
     // bad
     const val = inputValue >> 0;
 
-    // bad
+    // good but it's better specify decimal
     const val = parseInt(inputValue);
 
     // good
-    const val = Number(inputValue);
-
-    // good
     const val = parseInt(inputValue, 10);
+    
+    // good
+    const val = Number(inputValue);
     ```
 
   <a name="coercion--booleans"></a><a name="7.3"></a>
