@@ -143,6 +143,75 @@ TBD - no constructor no public accesor explicit
 ## Objects
 
 TBD - immutable as much as posible ; use map, filter ...
+## Basic Types(Declarations)
+- TypeScript support different types of data types
+    ```js
+    // bad
+    Boolean
+    var isEmtpy = false;
+    function receiveResponse (response) {
+        isEmpty = response;
+    }
+
+    Number
+    var myNumber = 17;
+    myNumber;
+
+    String
+    var myColor = "black";
+    myColor = "";
+
+    Array 
+    var arr = [];
+    arr = [12];
+
+    Methods
+    function myMethod(s);
+    function handlerEvent (event) {
+        let mouseEvent = event as MouseEvent;
+    }
+
+    Interface
+    var foo = {};
+    foo.bar = 123; // Error: property 'bar' does not exist on `{}`
+    foo.bas = 'hello';
+
+    // good
+    Boolean
+    let isResponse: boolean = false;
+    function receiveResponse (response: boolean) {
+        isResponse = response;
+    }
+    Number
+    let myNumber: number = 17;
+    
+    String
+    let myColor: string = "black";
+    myColor = 'red';
+    
+    Array
+    let arrNumber: Array<number> = [];
+    let arrString: Array<string> = [];
+
+    Methods
+    function myMethod(s: string): string;
+    function handlerEvent (event: Event) {
+        const mouseEvent = event as MouseEvent;
+    }
+
+    Interface
+    interface Foo {
+        bar: number;
+        bas: string;
+    }
+    const foo = {} as Foo;
+    foo.bar = 123;
+    foo.bas = 'hello';
+
+    Any
+    let notSure: any = 4;
+    notSure = "maybe a string instead of number";
+  ```
 
 ## Code Structure
 
